@@ -1,0 +1,57 @@
+.SignUp {
+	width: 30%;
+	margin: 10px auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.SignUp-form {
+	background-color: rgb(245, 245, 245);
+	padding: 20px;
+	border-radius: 5px;
+	border: 1px solid lightgray;
+	margin-top: 10px;
+}
+
+.SignUp-heading {
+	text-align: left;
+}
+
+.SignUp-form label {
+	float: left;
+	margin: 5px 0;
+}
+
+.SignUp-form input {
+	display: block;
+	box-sizing: border-box;
+	margin: 5px auto 10px auto;
+	width: 100%;
+	border: 1px solid lightgray;
+	font-size: 16px;
+	padding: 12px;
+	border-radius: 5px;
+}
+
+.SignUp-btn-wrapper {
+	text-align: right;
+}
+
+.SignUp-btn {
+	border: none;
+	text-decoration: none;
+	background-color: rgb(64, 80, 181);
+	margin-top: 10px;
+	padding: 10px 15px;
+	color: white;
+	border-radius: 5px;
+}
+
+.SignUp-form-err {
+	color: red;
+	font-size: small;
+	text-align: left;
+	margin-top: 0;
+}

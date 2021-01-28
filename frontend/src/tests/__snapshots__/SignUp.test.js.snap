@@ -1,0 +1,130 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot test 1`] = `
+<DocumentFragment>
+  <div
+    class="App"
+  >
+    <div
+      class="NavBar"
+    >
+      <header
+        class="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+        >
+          <button
+            aria-label="menu"
+            class="MuiButtonBase-root MuiIconButton-root makeStyles-menuButton-5 MuiIconButton-colorInherit MuiIconButton-edgeStart"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiIconButton-label"
+            >
+              <a
+                class="makeStyles-title-6"
+                href="/"
+                variant="h6"
+              >
+                Jobly
+              </a>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="NavBar-routes"
+          >
+            <a
+              href="/login"
+            >
+              Login
+            </a>
+            <a
+              href="/signup"
+            >
+              Sign up
+            </a>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div
+      class="SignUp"
+    >
+      <h4
+        class="MuiTypography-root SignUp-heading MuiTypography-h4"
+      >
+        Sign Up
+      </h4>
+      <form
+        class="SignUp-form"
+      >
+        <label
+          for="username"
+        >
+          Username
+        </label>
+        <input
+          id="username-input"
+          name="username"
+          type="text"
+        />
+        <label
+          for="password"
+        >
+          Password
+        </label>
+        <input
+          id="password-input"
+          name="password"
+          type="password"
+        />
+        <label
+          for="firstName"
+        >
+          First Name
+        </label>
+        <input
+          id="firstName-input"
+          name="firstName"
+          type="text"
+        />
+        <label
+          for="lastName"
+        >
+          Last Name
+        </label>
+        <input
+          id="lastName-input"
+          name="lastName"
+          type="text"
+        />
+        <label
+          for="email"
+        >
+          Email
+        </label>
+        <input
+          id="email-input"
+          name="email"
+          type="email"
+        />
+        <div
+          class="SignUp-btn-wrapper"
+        >
+          <button
+            class="SignUp-btn"
+            type="submit"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

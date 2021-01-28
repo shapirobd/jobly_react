@@ -1,0 +1,45 @@
+.JobCard {
+	margin: 20px 0;
+	box-shadow: 0px 2px 2px rgb(131, 131, 131);
+	padding: 30px;
+}
+
+.JobCard-header {
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+.JobCard-title {
+	display: block;
+	text-align: left;
+}
+
+.JobCard-salary {
+	display: block;
+	text-align: left;
+}
+
+.JobCard-equity {
+	display: block;
+	text-align: left;
+}
+
+.JobCard-btn-wrapper {
+	text-align: right;
+}
+
+.JobCard-btn {
+	background-color: rgb(245, 71, 71);
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+.JobCard-btn-disabled {
+	background-color: rgba(245, 71, 71, 0.5);
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
